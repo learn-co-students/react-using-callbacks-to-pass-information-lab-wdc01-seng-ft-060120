@@ -195,12 +195,12 @@ constructor() {
 ...
 ```
 
-In this case, the default is set to `#FFF` (white), but you can choose choose whatever
-hexadecimal color you'd like as default.
+<!-- In this case, the default is set to `#FFF` (white), but you can choose choose whatever
+hexadecimal color you'd like as default. -->
 
 #### Create a Method to Update State
 
-With a default color value set in state, we now need to add a method that can
+<!-- With a default color value set in state, we now need to add a method that can
 _change_ that state value:
 
 ```js
@@ -211,7 +211,7 @@ setSelectedColor = (newColor) => {
   this.setState({
     selectedColor: newColor
   })
-}
+} -->
 
 ...
 ```
